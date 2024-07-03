@@ -59,7 +59,7 @@ namespace CSPractice2
             ((Parent)child2).Method(); // 출력: 오버라이드된 자식 메서드
             Parent p2 = child2;
             p2.Method(); // 출력: 오버라이드된 자식 메서드
-            ((Chil2)p2).Method();  // 출력: 오버라이드된 자식 메서드
+            ((Child2)p2).Method();  // 출력: 오버라이드된 자식 메서드
         }
     }
 }
